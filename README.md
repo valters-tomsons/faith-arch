@@ -1,2 +1,12 @@
 # faith-arch
-Repository for Arch Linux packages
+Repository providing Arch Linux packages for `x86_64` and `aarch64`.
+
+## Usage
+
+Append the following to `/etc/pacman.conf`
+
+```
+[faith-arch]
+SigLevel = Optional TrustedOnly
+Server = https://tomsons.me/$repo/$arch
+```
