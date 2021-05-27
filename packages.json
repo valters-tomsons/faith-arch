@@ -1,0 +1,15 @@
+{
+    "aur": {
+        "x86_64": [
+            "dsbattery"
+        ],
+        "aarch64": [
+            "dsbattery"
+        ]
+    },
+    "git": {
+        "aarch64":[
+            "https://gitlab.manjaro.org/manjaro-arm/packages/extra/plymouth.git"
+        ]
+    }
+}
