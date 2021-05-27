@@ -8,5 +8,5 @@ Append the following to `/etc/pacman.conf`
 ```
 [faith-arch]
 SigLevel = Optional TrustedOnly
-Server = https://tomsons.me/$repo/$arch
+Server = https://repo.tomsons.me/$repo/$arch
 ```
